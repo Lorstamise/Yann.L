@@ -1,0 +1,133 @@
+/*css class*/
+
+
+/* Indique la page active */
+.active-page
+{
+  background-color: white;
+  color: white;
+}
+
+/* Top NavBar*/
+.top ul
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.top li
+{
+  float: left;
+}
+
+.top li a, .dropbtn /*Contenant*/
+{
+  cursor: pointer;
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top li a:hover, .dropdown:hover .dropbtn /* hover de tout les elements */
+{
+  background-color: #f3f3f3;
+  color: black;
+}
+
+.top li.dropdown
+{
+  display: inline-block;
+}
+
+ Side NavBar
+.side ul  Contenant
+{
+  list-style-type: none;
+  width: 60px;
+  position: fixed;
+  background-color:rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+  padding: 10px;
+  margin: 0;
+}
+.side li a  Contenue
+{
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  color: #f2f2f2;
+  text-decoration: none;
+  padding-bottom: 5px
+}
+.side li a:hover
+{
+  background-color:rgba(0, 0, 0, 0.5);
+  color: white;
+  border-style: none;
+}
+.formatTexte_SideNavBar
+{
+  margin-left: 60px; /* Même chose que la width .side ul
+  padding : 0px 40px;
+} */
+
+ /* Dropdown */
+
+.dropdown-content
+{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover
+{
+  background-color: #000000;
+}
+
+.dropdown:hover .dropdown-content
+{
+  display: block;
+}
+
+/* blank images */
+
+.blankImgHeader
+{
+  width: 100%;
+  height: 50px;
+}
+
+/* Logo */
+img.logo
+{
+    position: static;
+    padding-left: 40%;
+    height: 100px;
+    width: 200px;
+}
+
+img.home_icon
+{
+  position: static;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+}
