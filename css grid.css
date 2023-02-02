@@ -1,0 +1,25 @@
+/*css grid*/
+
+
+.grid-container /*Paramétre de la Grid*/
+{
+  display: grid; /* Type de grid */
+  grid-gap: 0px;
+  grid-template-columns: auto auto auto; /* Nombre de colone */
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+.topNavbar /* Paramêtre de la Grid contenant la NavBar */
+{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.logo-container
+{
+  grid-column-start: 1;
+  grid-column-end:  4;
+  background-color: rgba(0, 0, 0, 0);
+}
